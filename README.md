@@ -70,4 +70,49 @@ CREATE SEQUENCE compound_seq
     CACHE 1;
 
 
+Luego de creadas las tablas y las secuencias, la API estará lista para ejecutarse.
 
+## **Resumen de Endpoints Disponibles**
+Endpoints de Element:
+
+* Obtener todos los elementos
+Método: GET
+URL: /elements
+
+* Buscar un elemento por ID
+Método: GET
+URL: /elements/{elementId}
+
+* Añadir un nuevo elemento
+Método: POST
+URL: /elements
+
+* Actualizar un elemento existente
+Método: PUT
+URL: /elements/{elementId}
+
+* Eliminar un elemento por ID
+Método: DELETE
+URL: /elements/{elementId}
+
+## **Endpoints de Compound:**
+
+* Obtener todos los compuestos
+Método: GET
+URL: /compounds
+
+* Buscar un compuesto por ID
+Método: GET
+URL: /compounds/{compoundId}
+
+* Añadir un nuevo compuesto
+Método: POST
+URL: /compounds
+
+* Actualizar un compuesto existente
+Método: PUT
+URL: /compounds/{compoundId}
+
+* Eliminar un compuesto por ID
+Método: DELETE
+URL: /compounds/{compoundId}
