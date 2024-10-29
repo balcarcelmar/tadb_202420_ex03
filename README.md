@@ -77,15 +77,15 @@ Endpoints de Element:
 
 * Obtener todos los elementos
 Método: GET
-URL: /elements
+URL: /elements/findAll
 
 * Buscar un elemento por ID
 Método: GET
-URL: /elements/{elementId}
+URL: /elements//findById/{elementId}
 
 * Añadir un nuevo elemento
 Método: POST
-URL: /elements
+URL: /elements7addElement
 
 * Actualizar un elemento existente
 Método: PUT
@@ -93,26 +93,26 @@ URL: /elements/{elementId}
 
 * Eliminar un elemento por ID
 Método: DELETE
-URL: /elements/{elementId}
+URL: /elements/deleteElement/{elementId}
 
 ## **Endpoints de Compound:**
 
 * Obtener todos los compuestos
 Método: GET
-URL: /compounds
+URL: /compound/findAll
 
 * Buscar un compuesto por ID
 Método: GET
-URL: /compounds/{compoundId}
+URL: /compound/findById/{compoundId}
 
 * Añadir un nuevo compuesto
 Método: POST
-URL: /compounds
+URL: /compound/addElement
 
 * Actualizar un compuesto existente
 Método: PUT
-URL: /compounds/{compoundId}
+URL: /compound/updateElement/{compoundId}
 
 * Eliminar un compuesto por ID
 Método: DELETE
-URL: /compounds/{compoundId}
+URL: /compound/deleteElement/{compoundId}
